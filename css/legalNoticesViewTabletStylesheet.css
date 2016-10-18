@@ -1,0 +1,28 @@
+body {
+    font-size: 28px;
+}
+
+/* Beginning of the block "mainMenuContent" */
+#mainMenu li a {
+    font-size: 42px;
+}
+
+/* End CSS of the block "mainMenuContent" */
+
+/* Beginning CSS of the block "mainContent" */
+#mainContent h1 {
+    font-size: 42px;
+}
+
+#mainContent h2 {
+    font-size: 32px;
+}
+
+/* End CSS of the block "mainContent" */
+
+/* Beginning CSS of the block "mainFooter" */
+#mainFooterFirstInformationLinkContent p, #mainFooterSecondInformationLinkContent p {
+    font-size: 20px;
+}
+
+/* End CSS of the block "mainFooter" */

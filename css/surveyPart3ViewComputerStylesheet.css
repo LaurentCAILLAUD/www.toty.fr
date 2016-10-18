@@ -1,0 +1,82 @@
+body {
+    background: url("../pictures/background-img.png") fixed center;
+    background-size: cover;
+    background-color: transparent;
+}
+
+/* Beginning CSS of the block "mainWrapper" */
+#mainWrapper {
+    width: 1000px;
+    margin: 10px auto;
+    background-color: rgba(92, 151, 191, 1);
+}
+
+/* End CSS of the block "mainWrapper" */
+
+/* Beginning CSS of the block "mainHeader" */
+#mainHeader {
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+#mainHeader img {
+    width: 100%;
+}
+
+/* End of the block "mainHeader" */
+
+/* Beginning CSS of the block "mainMenuContainer" */
+#mainMenuContainer {
+    float: right;
+    width: 580px;
+    height: 400px;
+    margin: 0 10px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+/* End CSS of the block "mainMenuContainer" */
+
+/* Beginning CSS of the block "mainMenuControlButton" */
+#mainMenuControlButton {
+    display: none;
+}
+
+/* End CSS of the block "MainMenuControlButton" */
+
+/* Beginning of the block "mainMenuContent" */
+#mainMenuContent {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+
+#mainMenu img {
+    width: 35px
+}
+
+/* End CSS of the block "mainMenuContent" */
+
+/* Beginning CSS of the "mainContainer" */
+#mainContainer {
+    margin: 30px 10px
+}
+
+/* End CSS of the block "mainContainer" */
+
+/* Beginning CSS of the block "mainFooter" */
+#mainFooter {
+    margin: 0 10px;
+}
+
+#mainFooterFirstInformationLinkContent img, #mainFooterSecondInformationLinkContent img {
+    width: 35px
+}
+
+#mainFooterResponsiveLogoContent {
+    width: 60px;
+}
+
+/* End CSS of the block "mainFooter" */

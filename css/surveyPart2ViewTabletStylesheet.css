@@ -1,0 +1,73 @@
+body {
+    font-size: 28px;
+}
+
+/* Beginning of the block "mainMenuContent" */
+#mainMenu li a {
+    font-size: 42px;
+}
+
+/* End CSS of the block "mainMenuContent" */
+
+/* Beginning CSS of the block "mainContent" */
+#mainContent h1 {
+    font-size: 42px;
+}
+
+.userIndication {
+    font-size: 20px;
+}
+
+[type="checkbox"] + label:before {
+    top: 8.5px;
+}
+
+[type="checkbox"] + label:after {
+    top: 9px;
+}
+
+[type="checkbox"] + label {
+    width: 96.55173%;
+    padding-left: 3.44827%;
+}
+
+[type="text"] {
+    font-size: 28px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+::-moz-placeholder {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+:-ms-input-placeholder {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.choiceComment {
+    width: 96.55173%;
+    margin: 0 0 10px 3.44827%
+}
+
+#mainForm textarea {
+    font-size: 28px
+}
+
+input[type="submit"] {
+    font-size: 28px;
+}
+
+/* End CSS of the block "mainContent" */
+
+/* Beginning CSS of the block "mainFooter" */
+#mainFooterFirstInformationLinkContent p, #mainFooterSecondInformationLinkContent p {
+    font-size: 20px;
+}
+
+/* End CSS of the block "mainFooter" */

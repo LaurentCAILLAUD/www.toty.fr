@@ -1,0 +1,49 @@
+body {
+    background: url("../pictures/background-img.png") fixed center;
+    background-size: cover;
+    background-color: transparent;
+}
+
+/* Beginning CSS of the block "mainWrapper" */
+#mainWrapper {
+    width: 1000px;
+    margin: 10px auto;
+    background-color: rgba(92, 151, 191, 1);
+}
+
+/* End CSS of the block "mainWrapper" */
+
+/* Beginning CSS of the block "mainHeader" */
+#mainHeader {
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+#mainHeader img {
+    width: 100%;
+}
+
+/* End of the block "mainHeader" */
+
+/* Beginning CSS of the "mainContainer" */
+#mainContainer {
+    margin: 23.52727vh 10px 23.52727vh 10px;
+}
+
+/* End CSS of the block "mainContainer" */
+
+/* Beginning CSS of the block "mainFooter" */
+#mainFooter {
+    margin: 0 10px;
+}
+
+#mainFooterFirstInformationLinkContent img, #mainFooterSecondInformationLinkContent img {
+    width: 35px
+}
+
+#mainFooterResponsiveLogoContent {
+    width: 60px;
+}
+
+/* End CSS of the block "mainFooter" */

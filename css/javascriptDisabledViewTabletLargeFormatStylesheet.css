@@ -1,0 +1,25 @@
+body {
+    font-size: 34px;
+}
+
+/* Beginning CSS of the block mainContainer */
+#mainContainer {
+    margin: 22.33892vh 0;
+}
+
+/* End CSS of the block mainContainer */
+
+/* Beginning CSS of the block "mainContent" */
+#mainContent button {
+    font-size: 34px;
+    width: 270px;
+}
+
+/* End CSS of the block "mainContent" */
+
+/* Beginning CSS of the block "mainFooter" */
+#mainFooterFirstInformationLinkContent p, #mainFooterSecondInformationLinkContent p {
+    font-size: 24px;
+}
+
+/* End CSS of the block "mainFooter" */

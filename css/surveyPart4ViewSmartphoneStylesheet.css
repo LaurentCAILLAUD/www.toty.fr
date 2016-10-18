@@ -1,0 +1,337 @@
+@font-face {
+    font-family: 'mathlete';
+    src: url('../fonts/mathlete-skinny-webfont.eot');
+    src: url('../fonts/mathlete-skinny-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/mathlete-skinny-webfont.ttf') format('truetype'),
+    url('../fonts/mathlete-skinny-webfont.svg#exolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: mathlete, sans-serif;
+    font-size: 24px;
+    background-color: rgba(92, 151, 191, 1)
+}
+
+/* Beginning CSS of the block mainWrapper */
+#mainWrapper {
+    margin: 10px;
+}
+
+/* End CSS of the block main Wrapper */
+
+/** Beginning CSS of the block mainHeader **/
+#mainHeader img {
+    display: block;
+    width: 30.30303vh;
+    margin: 0 auto;
+}
+
+/** End CSS of the block mainHeader **/
+
+/* Beginning CSS of the block mainMenuContainer */
+#mainMenuContainer {
+    margin-top: 30px;
+}
+
+/* End CSS of the mainMenuContainer */
+
+/** Beginning CSS of the block mainMenuControlButton **/
+#mainMenuControlButton {
+    position: relative;
+    height: 3.78787vh;
+    padding: 5px 0;
+}
+
+#menuImg, #closeMenu {
+    position: absolute;
+    width: 3.78787vh;
+    height: 3.78787vh;
+    left: 50%;
+    margin-left: -1.89393vh;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+#closeMenu {
+    display: none;
+}
+
+#menuImg img, #closeMenu img {
+    width: 100%;
+}
+
+/** End CSS of the block mainMenuControlButton **/
+
+/** Beginning CSS of the block mainMenuContent **/
+#mainMenuContent {
+    margin-top: 30px;
+    display: none;
+}
+
+#mainMenu li {
+    text-align: center;
+    list-style: none;
+}
+
+#mainMenu li a {
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+}
+
+#mainMenu Img {
+    width: 25px;
+    display: block;
+    margin: 15px auto;
+}
+
+/** End CSS of the block mainMenuContent **/
+
+/* Beginning CSS of the block mainContainer */
+#mainContainer {
+    margin: 30px 0;
+}
+
+/* End CSS of the block mainContainer */
+
+/** Beginning CSS of the block mainContent **/
+#mainContent h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.userIndication {
+    font-size: 16px;
+    padding: 10px 0 0 0
+}
+
+#mainForm input:focus {
+    outline: none;
+}
+
+.surveyQuestion {
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.surveyQuestionFocus {
+    color: red
+}
+
+#mainContent figure {
+    width: 50px;
+    margin: 10px auto 0 auto;
+}
+
+#mainContent figure img {
+    width: 100%;
+}
+
+.cellPosition {
+    position: relative;
+}
+
+.insideRadioTable {
+    position: absolute;
+    left: -9999px;
+}
+
+.insideRadioTable + label {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 50%;
+    left: 50%;
+    margin-top: -5px;
+    margin-left: -5px;
+    border: 0.5px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.insideRadioTable:checked + label {
+    background-image: url("../pictures/radio-checked-smartphone-img.png");
+    border: none;
+}
+
+[type="checkbox"] {
+    position: absolute;
+    left: -9999px;
+}
+
+[type="checkbox"] + label {
+    position: relative;
+    display: inline-block;
+    width: 93.33334%;
+    padding-left: 6.66666%;
+    cursor: pointer;
+}
+
+[type="checkbox"] + label:before {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 7px;
+    left: 0;
+    border: 0.5px solid;
+}
+
+[type="checkbox"] + label:after {
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 7.5px;
+    left: 0.5px;
+    background-image: url("../pictures/checkbox-checked-smartphone-img.png");
+    display: none;
+}
+
+[type="checkbox"]:checked + label:after {
+    display: block;
+}
+
+[type="checkbox"]:checked + label:before {
+    border: none;
+}
+
+[type="text"], [type="email"], [type="tel"] {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 24px;
+    font-family: mathlete, sans-serif;
+    border-radius: 0;
+}
+
+::-webkit-input-placeholder {
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+    font-style: italic;
+}
+
+::-moz-placeholder {
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+    font-style: italic;
+}
+
+:-ms-input-placeholder {
+    font-size: 16px;
+    color: black;
+    line-height: 24px;
+    font-style: italic;
+}
+
+.choiceComment {
+    width: 93.33334%;
+    margin: 0 0 10px 6.66666%
+}
+
+.resetChoiceCommentCssProperties {
+    margin-bottom: 0
+}
+
+#mainForm table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#mainForm table th, #mainForm table td {
+    font-weight: normal;
+    padding: 5px 3px;
+}
+
+#mainForm table tr {
+    border-bottom: 0.5px solid;
+}
+
+#mainForm table tr:last-of-type {
+    border: none;
+}
+
+input[type="submit"] {
+    display: block;
+    -webkit-appearance: none;
+    width: 75px;
+    font-family: mathlete, sans-serif;
+    font-size: 24px;
+    border: none;
+    border-radius: 0;
+    background-color: rgba(229, 129, 128, 1);
+    padding: 5px 0;
+    margin: 10px auto 0 auto;
+}
+
+.uselessQuestion {
+    display: none
+}
+
+/** End CSS of the block mainContent **/
+
+/** Beginning CSS of the block mainFooter **/
+#mainFooterFirstInformationLinkContent, #mainFooterSecondInformationLinkContent {
+    width: 50%;
+}
+
+#mainFooterFirstInformationLinkContent p, #mainFooterSecondInformationLinkContent p {
+    font-size: 16px;
+}
+
+#mainFooterFirstInformationLinkContent img, #mainFooterSecondInformationLinkContent img {
+    width: 25px;
+    display: block;
+}
+
+#mainFooterFirstInformationLinkContent img {
+    margin: 5px 0
+}
+
+#mainFooterSecondInformationLinkContent img {
+    margin: 5px 0 5px auto
+}
+
+#mainFooterFirstInformationLinkContent p a, #mainFooterSecondInformationLinkContent p a {
+    color: black;
+    text-decoration: none;
+}
+
+#mainFooterSecondInformationLinkContent p {
+    text-align: right;
+}
+
+#mainFooterResponsiveLogoContent {
+    width: 4.54545vh;
+    margin: 5px auto 0 auto;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+#mainFooterResponsiveLogoContent img {
+    width: 100%;
+}
+
+/** End CSS of the block mainFooter **/
+
+.positionningLeft {
+    float: left;
+}
+
+.positionningRight {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}

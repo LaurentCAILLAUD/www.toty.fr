@@ -1,0 +1,38 @@
+body {
+    font-size: 34px;
+}
+
+/* Beginning CSS of the block "mainMenuContent" */
+#mainMenu li a {
+    font-size: 48px;
+}
+
+/* End CSS of the block "mainMenuContent" */
+
+/* Beginning of the block "mainContent" */
+#mainContent h1 {
+    font-size: 48px;
+}
+
+.answersList li {
+    background: url("../pictures/radio-checked-computer-img.png") no-repeat left center;
+    padding-left: 3.20512%;
+}
+
+#mainContent button {
+    font-size: 34px;
+    width: 350px;
+}
+
+.noResponsesToDisplay {
+    padding: 23.05649vh 0;
+}
+
+/* End CSS of the block "mainContent" */
+
+/* Beginning CSS of the block "mainFooter" */
+#mainFooterFirstInformationLinkContent p, #mainFooterSecondInformationLinkContent p {
+    font-size: 24px;
+}
+
+/* End CSS of the block "mainFooter" */

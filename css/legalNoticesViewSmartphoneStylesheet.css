@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'mathlete';
+    src: url('../fonts/mathlete-skinny-webfont.eot');
+    src: url('../fonts/mathlete-skinny-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/mathlete-skinny-webfont.ttf') format('truetype'),
+    url('../fonts/mathlete-skinny-webfont.svg#exolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: mathlete, sans-serif;
+    font-size: 24px;
+    background-color: rgba(92, 151, 191, 1)
+}
+
+/* Beginning CSS of the block mainWrapper */
+#mainWrapper {
+    margin: 10px;
+}
+
+/* End CSS of the block main Wrapper */
+
+/** Beginning CSS of the block mainHeader **/
+#mainHeader img {
+    display: block;
+    width: 30.30303vh;
+    margin: 0 auto;
+}
+
+/** End CSS of the block mainHeader **/
+
+/* Beginning CSS of the block mainMenuContainer */
+#mainMenuContainer {
+    margin-top: 30px;
+}
+
+/* End CSS of the mainMenuContainer */
+
+/** Beginning CSS of the block mainMenuControlButton **/
+#mainMenuControlButton {
+    position: relative;
+    height: 3.78787vh;
+    padding: 5px 0;
+}
+
+#menuImg, #closeMenu {
+    position: absolute;
+    width: 3.78787vh;
+    height: 3.78787vh;
+    left: 50%;
+    margin-left: -1.89393vh;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+#closeMenu {
+    display: none;
+}
+
+#menuImg img, #closeMenu img {
+    width: 100%;
+}
+
+/** End CSS of the block mainMenuControlButton **/
+
+/** Beginning CSS of the block mainMenuContent **/
+#mainMenuContent {
+    margin-top: 30px;
+    display: none;
+}
+
+#mainMenu li {
+    text-align: center;
+    list-style: none;
+}
+
+#mainMenu li a {
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+}
+
+#mainMenu Img {
+    width: 25px;
+    display: block;
+    margin: 15px auto;
+}
+
+/* End CSS of the block mainMenuContent */
+
+/* Beginning CSS of the block mainContainer */
+#mainContainer {
+    margin: 30px 0;
+}
+
+/* End CSS of the block mainContainer */
+
+/** Beginning CSS of the block mainContent **/
+#mainContent h1 {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#mainContent h2 {
+    font-size: 28px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+#mainContent p {
+    text-align: justify;
+}
+
+#mainContent p a {
+    text-decoration: none;
+    color: black;
+}
+
+#mainContent figure {
+    width: 50px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+#mainContent figure img {
+    width: 100%
+}
+
+/** End CSS of the block mainContent **/
+
+/** Beginning CSS of the block mainFooter **/
+#mainFooterFirstInformationLinkContent, #mainFooterSecondInformationLinkContent {
+    width: 50%;
+}
+
+#mainFooterFirstInformationLinkContent p, #mainFooterSecondInformationLinkContent p {
+    font-size: 16px;
+}
+
+#mainFooterFirstInformationLinkContent img, #mainFooterSecondInformationLinkContent img {
+    width: 25px;
+    display: block;
+}
+
+#mainFooterFirstInformationLinkContent img {
+    margin: 5px 0
+}
+
+#mainFooterSecondInformationLinkContent img {
+    margin: 5px 0 5px auto
+}
+
+#mainFooterFirstInformationLinkContent p a, #mainFooterSecondInformationLinkContent p a {
+    color: black;
+    text-decoration: none;
+}
+
+#mainFooterSecondInformationLinkContent p {
+    text-align: right;
+}
+
+#mainFooterResponsiveLogoContent {
+    width: 4.54545vh;
+    margin: 5px auto 0 auto;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+#mainFooterResponsiveLogoContent img {
+    width: 100%;
+}
+
+/** End CSS of the block mainFooter **/
+
+.positionningLeft {
+    float: left;
+}
+
+.positionningRight {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
