@@ -8,14 +8,14 @@
                 var ownerPassword = $("#ownerPassword");
 
                 /* add click management for the email input text */
-                ownerMail.keydown(function () {
+                ownerMail.keydown(function (event) {
                     var keyCode = event.which;
                     var mailLetteringAccepted = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
                     return !!(mailLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8 || keyCode == 189 || keyCode == 190 || keyCode == 192);
                 });
 
                 /* add click management for the password input text */
-                ownerPassword.keydown(function () {
+                ownerPassword.keydown(function (event) {
                     var keyCode = event.which;
                     var passwordLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
                     return !!(passwordLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
