@@ -28,6 +28,7 @@
     <favorites_list name="TOTY" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="formValidationAnalyseContact.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseContact.js">
@@ -40,6 +41,9 @@
         </entry>
       </file>
     </leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+>>>>>>> branchNumber3
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,10 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/surveyPart1ViewTabletStylesheet.css" />
-        <option value="$PROJECT_DIR$/css/surveyPart2ViewTabletStylesheet.css" />
-        <option value="$PROJECT_DIR$/css/surveyPart3ViewTabletStylesheet.css" />
-        <option value="$PROJECT_DIR$/css/surveyPart4ViewTabletStylesheet.css" />
         <option value="$PROJECT_DIR$/css/thanksViewTabletStylesheet.css" />
         <option value="$PROJECT_DIR$/css/contactViewTabletLargeFormatStylesheet.css" />
         <option value="$PROJECT_DIR$/css/homeViewTabletLargeFormatStylesheet.css" />
@@ -86,7 +86,6 @@
         <option value="$PROJECT_DIR$/css/surveyPart3ViewComputerStylesheet.css" />
         <option value="$PROJECT_DIR$/css/surveyPart4ViewComputerStylesheet.css" />
         <option value="$PROJECT_DIR$/css/thanksViewComputerStylesheet.css" />
-        <option value="$PROJECT_DIR$/js/formValidationAnalysePrivateAccess.js" />
         <option value="$PROJECT_DIR$/js/questionDisplayManagementSurveyPart2.js" />
         <option value="$PROJECT_DIR$/js/questionDisplayManagementSurveyPart3.js" />
         <option value="$PROJECT_DIR$/model/SurveyResponses.php" />
@@ -96,7 +95,6 @@
         <option value="$PROJECT_DIR$/../../../conf/php7.0.0/php.ini" />
         <option value="$PROJECT_DIR$/../../../conf/php5.6.10/php.ini" />
         <option value="$PROJECT_DIR$/view/privateAccessView.php" />
-        <option value="$PROJECT_DIR$/js/formValidationAnalyseContact.js" />
         <option value="$PROJECT_DIR$/controller/contactViewController.php" />
         <option value="$PROJECT_DIR$/view/legalNoticesView.html" />
         <option value="$PROJECT_DIR$/view/contactView.php" />
@@ -106,8 +104,14 @@
         <option value="$PROJECT_DIR$/controller/respondentsAnswersViewController.php" />
         <option value="$PROJECT_DIR$/controller/privateAccessViewController.php" />
         <option value="$PROJECT_DIR$/controller/surveyPart4ViewController.php" />
-        <option value="$PROJECT_DIR$/js/formValidationAnalyseSurveyPart1.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/homeViewSmartphoneStylesheet.css" />
+        <option value="$PROJECT_DIR$/js/formValidationAnalyseSurveyPart1.js" />
+        <option value="$PROJECT_DIR$/js/formValidationAnalyseSurveyPart2.js" />
+        <option value="$PROJECT_DIR$/js/formValidationAnalyseSurveyPart4.js" />
+        <option value="$PROJECT_DIR$/js/formValidationAnalyseContact.js" />
+        <option value="$PROJECT_DIR$/js/formValidationAnalysePrivateAccess.js" />
+        <option value="$PROJECT_DIR$/js/formValidationAnalyseSurveyPart3.js" />
       </list>
     </option>
   </component>
@@ -194,6 +198,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TOTY" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+>>>>>>> branchNumber3
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -223,6 +240,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+<<<<<<< HEAD
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,6 +251,8 @@
           </PATH>
         </subPane>
       </pane>
+=======
+>>>>>>> branchNumber3
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,13 +383,22 @@
       <workItem from="1476979325442" duration="4000" />
       <workItem from="1476982433422" duration="900000" />
       <workItem from="1476985037671" duration="749000" />
+<<<<<<< HEAD
       <workItem from="1477464448619" duration="1889000" />
       <workItem from="1477486408400" duration="40000" />
+=======
+      <workItem from="1477464448619" duration="7250000" />
+      <workItem from="1477475126885" duration="3637000" />
+>>>>>>> branchNumber3
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="502476000" />
+=======
+    <option name="totallyTimeSpent" value="511434000" />
+>>>>>>> branchNumber3
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1413" extended-state="0" />
@@ -433,34 +462,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/surveyAlreadySendViewComputerStylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/surveyPart1ViewComputerStylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/surveyPart2ViewComputerStylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/surveyPart3ViewComputerStylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/surveyPart4ViewComputerStylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -483,27 +484,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/animationMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseSurveyPart2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseSurveyPart3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseSurveyPart4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -623,13 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/formValidationAnalysePrivateAccess.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/LC Graph &amp; Web/Site internet/www.toty.fr/www.toty.fr/controller/privateAccessViewController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -688,6 +661,9 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/LC Graph &amp; Web/Site internet/www.toty.fr/www.toty.fr/controller/privateAccessViewController.php">
+=======
     <entry file="file://$PROJECT_DIR$/controller/privateAccessViewController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -696,6 +672,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/respondentsAnswersViewController.php">
+>>>>>>> branchNumber3
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -744,10 +721,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseSurveyPart1.js">
+    <entry file="file://$PROJECT_DIR$/css/homeViewComputerStylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/homeViewTabletLargeFormatStylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/homeViewTabletStylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -759,7 +757,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseSurveyPart1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseContact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/formValidationAnalysePrivateAccess.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseSurveyPart2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/surveyPart4View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3234">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseSurveyPart4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseSurveyPart3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

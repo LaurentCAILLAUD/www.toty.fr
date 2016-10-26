@@ -36,9 +36,6 @@
                 $("#hairCareWaitingComment1").keydown(function () {
                     surveyQuestionRemoveClass(0);
                     checkThisElement(hairCareWaitingChoice9);
-                    var keyCode = event.which;
-                    var otherHairCareLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
-                    return !!(otherHairCareLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
                 /* question 22 add click management for checkboxes */
@@ -50,9 +47,6 @@
                 $("#bodyCareWaitingComment1").keydown(function () {
                     surveyQuestionRemoveClass(1);
                     checkThisElement(bodyCareWaitingChoice6);
-                    var keyCode = event.which;
-                    var otherBodyCareLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
-                    return !!(otherBodyCareLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
                 /* question 23 add click management for checkboxes */
@@ -64,9 +58,6 @@
                 $("#packingInformationComment1").keydown(function () {
                     surveyQuestionRemoveClass(2);
                     checkThisElement(packingInformationChoice5);
-                    var keyCode = event.which;
-                    var otherPackingLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
-                    return !!(otherPackingLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
                 /* question 24 add click management for checkboxes */
@@ -79,9 +70,6 @@
                 $("#packagingTypeComment1").keydown(function () {
                     surveyQuestionRemoveClass(3);
                     checkThisElement(packagingTypeChoice6);
-                    var keyCode = event.which;
-                    var otherPackagingLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
-                    return !!(otherPackagingLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
                 /* question 25 add click management for radio buttons */
@@ -96,9 +84,6 @@
                 /* question 26 add writing management for textarea */
                 whyRefuseMeeting.keydown(function () {
                     surveyQuestionRemoveClass(5);
-                    var keyCode = event.which;
-                    var otherRefuseLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
-                    return !!(otherRefuseLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
                 /* add click management for the button "suite" */
