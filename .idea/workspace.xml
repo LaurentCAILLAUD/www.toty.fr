@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764ece6e-e087-47d3-aae0-8d62ae48c627" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/formValidationAnalyseSurveyPart4.js" afterPath="$PROJECT_DIR$/js/formValidationAnalyseSurveyPart4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/formValidationAnalyseContact.js" afterPath="$PROJECT_DIR$/js/formValidationAnalyseContact.js" />
     </list>
     <ignored path="TOTY.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +31,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="formValidationAnalyseSurveyPart4.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseSurveyPart4.js">
+      <file leaf-file-name="formValidationAnalyseContact.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseContact.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -94,7 +94,6 @@
         <option value="$PROJECT_DIR$/../../../conf/php7.0.0/php.ini" />
         <option value="$PROJECT_DIR$/../../../conf/php5.6.10/php.ini" />
         <option value="$PROJECT_DIR$/view/privateAccessView.php" />
-        <option value="$PROJECT_DIR$/js/formValidationAnalyseContact.js" />
         <option value="$PROJECT_DIR$/controller/contactViewController.php" />
         <option value="$PROJECT_DIR$/view/legalNoticesView.html" />
         <option value="$PROJECT_DIR$/view/contactView.php" />
@@ -110,6 +109,7 @@
         <option value="$PROJECT_DIR$/js/formValidationAnalyseSurveyPart2.js" />
         <option value="$PROJECT_DIR$/js/formValidationAnalyseSurveyPart3.js" />
         <option value="$PROJECT_DIR$/js/formValidationAnalyseSurveyPart4.js" />
+        <option value="$PROJECT_DIR$/js/formValidationAnalyseContact.js" />
       </list>
     </option>
   </component>
@@ -390,12 +390,12 @@
       <workItem from="1476982433422" duration="900000" />
       <workItem from="1476985037671" duration="749000" />
       <workItem from="1477464448619" duration="7250000" />
-      <workItem from="1477475126885" duration="1219000" />
+      <workItem from="1477475126885" duration="1409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="509016000" />
+    <option name="totallyTimeSpent" value="509206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1413" extended-state="0" />
@@ -765,14 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseContact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseSurveyPart1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -798,6 +790,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseSurveyPart4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/formValidationAnalyseContact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
