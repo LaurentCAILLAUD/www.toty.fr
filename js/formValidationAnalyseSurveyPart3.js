@@ -40,7 +40,7 @@
                 });
 
                 /* question 30 add writing management for the textarea */
-                whyNoApplyProducts.keydown(function () {
+                whyNoApplyProducts.keydown(function (event) {
                     surveyQuestionRemoveClass(3);
                     var keyCode = event.which;
                     var otherApplyProductsLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
@@ -66,7 +66,7 @@
                 });
 
                 /* question 32 add writing management for the input text */
-                $("#productLocationComment1").keydown(function () {
+                $("#productLocationComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(5);
                     checkThisElement($('#productLocationChoice7'));
                     var keyCode = event.which;
@@ -74,7 +74,7 @@
                     return !!(internetProductLocationLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
-                $("#productLocationComment2").keydown(function () {
+                $("#productLocationComment2").keydown(function (event) {
                     surveyQuestionRemoveClass(5);
                     checkThisElement($('#productLocationChoice8'));
                     var keyCode = event.which;
@@ -82,7 +82,7 @@
                     return !!(townProductLocationLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
-                $("#productLocationComment3").keydown(function () {
+                $("#productLocationComment3").keydown(function (event) {
                     surveyQuestionRemoveClass(5);
                     checkThisElement($("#productLocationChoice10"));
                     var keyCode = event.which;
@@ -96,7 +96,7 @@
                 });
 
                 /* Question 33 add writing management for the input text */
-                $("#favouriteUseModeComment1").keydown(function () {
+                $("#favouriteUseModeComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(6);
                     checkThisElement($("#favouriteUseModeChoice10"));
                     var keyCode = event.which;
@@ -120,7 +120,7 @@
                 });
 
                 /* question 37 add click management for the radio buttons */
-                whyDissatisfactionChildCosmeticsUse.keydown(function () {
+                whyDissatisfactionChildCosmeticsUse.keydown(function (event) {
                     surveyQuestionRemoveClass(10);
                     var keyCode = event.which;
                     var whyDissatisfactionLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
