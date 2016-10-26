@@ -10,21 +10,21 @@
                 var userMessage = $("#userMessage");
 
                 /* add writing management for the name input text */
-                userName.keydown(function () {
+                userName.keydown(function (event) {
                     var keyCode = event.which;
                     var userNameLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
                     return !!(userNameLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8 || keyCode == 189);
                 });
 
                 /* add writing management for the first name input text */
-                userFirstName.keydown(function () {
+                userFirstName.keydown(function (event) {
                     var keyCode = event.which;
                     var userFirstNameLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
                     return !!(userFirstNameLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8 || keyCode == 189);
                 });
 
                 /* add writing management for the email input text */
-                userMail.keydown(function () {
+                userMail.keydown(function (event) {
                     var keyCode = event.which;
                     var userMailLetteringAccepted = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
                     return !!(userMailLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8 || keyCode == 189 || keyCode == 190
@@ -32,7 +32,7 @@
                 });
 
                 /* add writing management for the message textarea */
-                userMessage.keydown(function () {
+                userMessage.keydown(function (event) {
                     var keyCode = event.which;
                     var userMessageLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789- ";
                     return !!(userMessageLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8 || keyCode == 189 || keyCode == 190 || keyCode == 191);
