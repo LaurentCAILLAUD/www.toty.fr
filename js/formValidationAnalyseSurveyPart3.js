@@ -40,11 +40,8 @@
                 });
 
                 /* question 30 add writing management for the textarea */
-                whyNoApplyProducts.keydown(function (event) {
+                whyNoApplyProducts.keydown(function () {
                     surveyQuestionRemoveClass(3);
-                    var keyCode = event.which;
-                    var otherApplyProductsLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
-                    return !!(otherApplyProductsLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
                 /* question 31 add click management for the radio buttons */
@@ -66,28 +63,19 @@
                 });
 
                 /* question 32 add writing management for the input text */
-                $("#productLocationComment1").keydown(function (event) {
+                $("#productLocationComment1").keydown(function () {
                     surveyQuestionRemoveClass(5);
                     checkThisElement($('#productLocationChoice7'));
-                    var keyCode = event.which;
-                    var internetProductLocationLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
-                    return !!(internetProductLocationLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
-                $("#productLocationComment2").keydown(function (event) {
+                $("#productLocationComment2").keydown(function () {
                     surveyQuestionRemoveClass(5);
                     checkThisElement($('#productLocationChoice8'));
-                    var keyCode = event.which;
-                    var townProductLocationLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
-                    return !!(townProductLocationLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
-                $("#productLocationComment3").keydown(function (event) {
+                $("#productLocationComment3").keydown(function () {
                     surveyQuestionRemoveClass(5);
                     checkThisElement($("#productLocationChoice10"));
-                    var keyCode = event.which;
-                    var otherProductLocationLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
-                    return !!(otherProductLocationLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
                 /* question 33 add click management for checkboxes */
@@ -96,12 +84,9 @@
                 });
 
                 /* Question 33 add writing management for the input text */
-                $("#favouriteUseModeComment1").keydown(function (event) {
+                $("#favouriteUseModeComment1").keydown(function () {
                     surveyQuestionRemoveClass(6);
                     checkThisElement($("#favouriteUseModeChoice10"));
-                    var keyCode = event.which;
-                    var otherFavouriteModeLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
-                    return !!(otherFavouriteModeLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
                 /* question 34 add click management for the radio buttons */
@@ -120,11 +105,8 @@
                 });
 
                 /* question 37 add click management for the radio buttons */
-                whyDissatisfactionChildCosmeticsUse.keydown(function (event) {
+                whyDissatisfactionChildCosmeticsUse.keydown(function () {
                     surveyQuestionRemoveClass(10);
-                    var keyCode = event.which;
-                    var whyDissatisfactionLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
-                    return !!(whyDissatisfactionLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
                 /* add click management for the button "suite" */
