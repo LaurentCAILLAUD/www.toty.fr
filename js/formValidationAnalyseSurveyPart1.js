@@ -40,14 +40,14 @@
                 });
 
                 /* question 2 add write management for the input text */
-                town.keydown(function () {
+                town.keydown(function (event) {
                     surveyQuestionRemoveClass(1);
                     var keyCode = event.which;
                     var letteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- ";
                     return !!(letteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
-                postalCode.keydown(function () {
+                postalCode.keydown(function (event) {
                     surveyQuestionRemoveClass(1);
                     var keyCode = event.which;
                     var postalCodeNumbersAccepted = "0123456789";
@@ -60,7 +60,7 @@
                 });
 
                 /* question 4 add writing management for the input text */
-                birthYear.keydown(function () {
+                birthYear.keydown(function (event) {
                     surveyQuestionRemoveClass(3);
                     var keyCode = event.which;
                     var postalCodeNumbersAccepted = "0123456789";
@@ -113,7 +113,7 @@
                 });
 
                 /* question 9 add writing management for the input text */
-                $("#purchaseLocationComment1").keydown(function () {
+                $("#purchaseLocationComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(8);
                     checkThisElement(purchaseLocationChoice7);
                     var keyCode = event.which;
@@ -121,7 +121,7 @@
                     return !!(internetPurchaseLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
-                $("#purchaseLocationComment2").keydown(function () {
+                $("#purchaseLocationComment2").keydown(function (event) {
                     surveyQuestionRemoveClass(8);
                     checkThisElement(purchaseLocationChoice8);
                     var keyCode = event.which;
@@ -129,7 +129,7 @@
                     return !!(townPurchaseLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
-                $("#purchaseLocationComment3").keydown(function () {
+                $("#purchaseLocationComment3").keydown(function (event) {
                     surveyQuestionRemoveClass(8);
                     checkThisElement(purchaseLocationChoice11);
                     var keyCode = event.which;
@@ -143,7 +143,7 @@
                 });
 
                 /* question 10 add writing management for the input text */
-                $("#preferredUseModeComment1").keydown(function () {
+                $("#preferredUseModeComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(9);
                     checkThisElement(preferredUseModeChoice10);
                     var keyCode = event.which;
@@ -157,7 +157,7 @@
                 });
 
                 /* question 12 add writing management for the textarea */
-                whyNeedAdvice.keydown(function () {
+                whyNeedAdvice.keydown(function (event) {
                     surveyQuestionRemoveClass(11);
                     var keyCode = event.which;
                     var whyNeedAdviceLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-' .";
@@ -179,7 +179,7 @@
                 });
 
                 /* question 14 add writing management for the input text */
-                $("#whyProductsDifficultiesComment1").keydown(function () {
+                $("#whyProductsDifficultiesComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(13);
                     checkThisElement(whyProductsDifficultiesChoice3);
                     var keyCode = event.which;
@@ -193,7 +193,7 @@
                 });
 
                 /* question 15 add writing management for the input text */
-                $("#changeHairAppearanceComment1").keydown(function () {
+                $("#changeHairAppearanceComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(14);
                     checkThisElement(changeHairAppearanceChoice13);
                     var keyCode = event.which;
@@ -207,7 +207,7 @@
                 });
 
                 /* question 16 add click management for the input text */
-                $("#placeChangeHairAppearanceComment1").keydown(function () {
+                $("#placeChangeHairAppearanceComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(15);
                     checkThisElement(placeChangeHairAppearanceChoice10);
                     var keyCode = event.which;
@@ -231,7 +231,7 @@
                 });
 
                 /* question 20 add writing management for the textarea */
-                whyDissatisfactionCosmeticsUse.keydown(function () {
+                whyDissatisfactionCosmeticsUse.keydown(function (event) {
                     surveyQuestionRemoveClass(19);
                     var keyCode = event.which;
                     var whyDissatisfactionLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-' .";
