@@ -29,7 +29,7 @@
                 });
 
                 /* question 38 add writing management for the input text */
-                $("#socialMediaUseComment1").keydown(function () {
+                $("#socialMediaUseComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(0);
                     checkThisElement($("#socialMediaUseChoice10"));
                     var keyCode = event.which;
@@ -47,14 +47,14 @@
                 });
 
                 /* question 40 add writing management for input text */
-                phoneNumber.keydown(function () {
+                phoneNumber.keydown(function (event) {
                     surveyQuestionRemoveClass(2);
                     var keyCode = event.which;
                     var phoneNumberLetteringAccepted = "0123456789";
                     return !!(phoneNumberLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
-                mailAdress.keydown(function () {
+                mailAdress.keydown(function (event) {
                     surveyQuestionRemoveClass(2);
                     var keyCode = event.which;
                     var mailAddressLetteringAccepted = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
