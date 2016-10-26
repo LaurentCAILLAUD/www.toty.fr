@@ -33,7 +33,7 @@
                 });
 
                 /* question 21 add writing management for the input text */
-                $("#hairCareWaitingComment1").keydown(function () {
+                $("#hairCareWaitingComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(0);
                     checkThisElement(hairCareWaitingChoice9);
                     var keyCode = event.which;
@@ -47,7 +47,7 @@
                 });
 
                 /* question 22 add writing management for the input text */
-                $("#bodyCareWaitingComment1").keydown(function () {
+                $("#bodyCareWaitingComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(1);
                     checkThisElement(bodyCareWaitingChoice6);
                     var keyCode = event.which;
@@ -61,7 +61,7 @@
                 });
 
                 /* question 23 add writing management for the input text */
-                $("#packingInformationComment1").keydown(function () {
+                $("#packingInformationComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(2);
                     checkThisElement(packingInformationChoice5);
                     var keyCode = event.which;
@@ -76,7 +76,7 @@
 
 
                 /* question 24 add writing management for the input text */
-                $("#packagingTypeComment1").keydown(function () {
+                $("#packagingTypeComment1").keydown(function (event) {
                     surveyQuestionRemoveClass(3);
                     checkThisElement(packagingTypeChoice6);
                     var keyCode = event.which;
@@ -94,7 +94,7 @@
                 });
 
                 /* question 26 add writing management for textarea */
-                whyRefuseMeeting.keydown(function () {
+                whyRefuseMeeting.keydown(function (event) {
                     surveyQuestionRemoveClass(5);
                     var keyCode = event.which;
                     var otherRefuseLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- .";
