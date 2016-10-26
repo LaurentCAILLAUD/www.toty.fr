@@ -148,7 +148,7 @@
                             }
 
                             /* question 31 add click management for the radio buttons */
-                            if (!applyCosmeticsProductsChoice2.is(":checkhed")) {
+                            if (!applyCosmeticsProductsChoice2.is(":checked")) {
                                 if (!$('input[name="frequencyFaceCosmeticUse"]').is(':checked')) {
                                     alert('Veuillez cocher à quelle fréquence vous lui/leur appliquez des produits pour le visage.');
                                     $("#frequencyFaceCosmeticUseChoice1").focus();
