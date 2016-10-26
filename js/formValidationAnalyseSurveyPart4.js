@@ -29,12 +29,9 @@
                 });
 
                 /* question 38 add writing management for the input text */
-                $("#socialMediaUseComment1").keydown(function (event) {
+                $("#socialMediaUseComment1").keydown(function () {
                     surveyQuestionRemoveClass(0);
                     checkThisElement($("#socialMediaUseChoice10"));
-                    var keyCode = event.which;
-                    var otherSocialMediaLetteringAccepted = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ";
-                    return !!(otherSocialMediaLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
                 /* question 39 add click management for radio buttons */
@@ -47,19 +44,12 @@
                 });
 
                 /* question 40 add writing management for input text */
-                phoneNumber.keydown(function (event) {
+                phoneNumber.keydown(function () {
                     surveyQuestionRemoveClass(2);
-                    var keyCode = event.which;
-                    var phoneNumberLetteringAccepted = "0123456789";
-                    return !!(phoneNumberLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8);
                 });
 
-                mailAdress.keydown(function (event) {
+                mailAdress.keydown(function () {
                     surveyQuestionRemoveClass(2);
-                    var keyCode = event.which;
-                    var mailAddressLetteringAccepted = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-                    return !!(mailAddressLetteringAccepted.indexOf(String.fromCharCode(keyCode)) >= 0 || keyCode == 8 || keyCode == 192 || keyCode == 189
-                    || keyCode == 190);
                 });
 
                 /* add click management for the button "suite" */
