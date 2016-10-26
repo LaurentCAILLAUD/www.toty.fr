@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="764ece6e-e087-47d3-aae0-8d62ae48c627" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/formValidationAnalyseContact.js" afterPath="$PROJECT_DIR$/js/formValidationAnalyseContact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TOTY.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -390,12 +390,12 @@
       <workItem from="1476982433422" duration="900000" />
       <workItem from="1476985037671" duration="749000" />
       <workItem from="1477464448619" duration="5733000" />
-      <workItem from="1477474314342" duration="105000" />
+      <workItem from="1477474314342" duration="217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="506385000" />
+    <option name="totallyTimeSpent" value="506497000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1413" extended-state="0" />
