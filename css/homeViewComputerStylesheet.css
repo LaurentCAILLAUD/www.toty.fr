@@ -1,9 +1,3 @@
-body {
-    background: url("../pictures/background-img.png") fixed center;
-    background-size: cover;
-    background-color: transparent;
-}
-
 /* Beginning CSS of the block "mainWrapper" */
 #mainWrapper {
     width: 1000px;
